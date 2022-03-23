@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+body {
+background-color: #82DDB5;
+background-image: url('img/illustration.gif'), url('img/texture.jpg');
+background-position: center 280px, left top;
+background-repeat: no-repeat, repeat-x;
+background-size: 800px, auto;
+font-family: 'Quicksand', sans-serif;
+margin: 0;
+    
+}
+#nav {
+background-color: #6B9;
+border-bottom: 2px dashed #487;
+color: white;
+font-weight: bold;
+padding: 20px 0;
+text-align: center;
+word-spacing: 2em;
+}
+
+#header {
+text-align: center;
+margin-top: 40px;
+}
+
+#logo {
+max-width: 360px;
+width: 100%;
+}
+
+#description, #date {
+max-width: 220px;
+width: 100%;
+}
+
+.register_btn {
+background-color: #E43;
+border: 2px dashed #A43;
+border-radius: 2em;
+color: #FFF;
+cursor: pointer;
+display: inline-block;
+font-weight: bold;
+margin-top: 25px;
+padding: 15px 30px;
+}
+
+#logo {
+    width: 500px;
+}
+
+
+#what {
+    color: #307486;
+    margin-top: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(199, 238, 221, 0.9);
+    padding: 10px 450px 20px;
+}
+
+#id sponser_logos {
+    color: #307486;
+    text-align: center;
+}
+
+#why {
+    color: #307486;
+    padding: 10px 450px 20px;
+    background-color: #b6ead3;
+}
+
+#where {
+    color: #bb4488;
+    padding: 110px 650px 400px 0;
+    text-align: end;
+    background-image: url(img/map.gif)
+}
+
+#when {
+    color: white;
+    padding: 10px 450px 20px;
+    background-image: url(img/wires.png);
+    background-color: #439998;
+    background-size: 50%;
+    border-bottom: dashed white;
+}
+
+#who {
+    padding: 10px 450px 20px;
+    background-color: #f5f5f5;
+    color: #307486;
+}
+
+#footer {
+       background-image: url(img/icon-twitter.svg), url(img/icon-facebook.svg),url(img/icon-itch.svg);
+       width: 100px;
+       height: auto;
+       background-repeat: no-repeat, repeat-x;
+}

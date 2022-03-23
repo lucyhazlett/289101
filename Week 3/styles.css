@@ -1,0 +1,23 @@
+.red {
+color: red;
+}
+
+#headerbar {
+    border: 5px solid #bb72ff;
+    height: 100px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#sitecontent {
+    border: 5px solid #2bd1fb;
+    padding: 10px;
+}
+
+#footer {
+    border: 5px solid #f56eab;
+    margin: 10px;
+}
+
