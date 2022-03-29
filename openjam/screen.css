@@ -51,8 +51,12 @@ padding: 15px 30px;
     width: 500px;
 }
 
+#what h1 {
+    text-align: center;
+}
 
 #what {
+    text-align: start;
     color: #307486;
     margin-top: 360px;
     margin-left: auto;
@@ -61,8 +65,16 @@ padding: 15px 30px;
     padding: 10px 450px 20px;
 }
 
+#what h2 {
+    text-align: center;
+}
+    
 #id sponser_logos {
     color: #307486;
+    text-align: center;
+}
+
+#why h1 {
     text-align: center;
 }
 
@@ -72,11 +84,20 @@ padding: 15px 30px;
     background-color: #b6ead3;
 }
 
+#where h1 {
+    margin: 20px 250px 10px;
+}
+
 #where {
     color: #bb4488;
-    padding: 110px 650px 400px 0;
+    padding: 110px 390px 400px 0;
     text-align: end;
-    background-image: url(img/map.gif)
+    background-image: url(img/map.gif);
+    font-weight: bold;
+}
+
+#when h1, h2 {
+    text-align: center;
 }
 
 #when {
@@ -85,7 +106,16 @@ padding: 15px 30px;
     background-image: url(img/wires.png);
     background-color: #439998;
     background-size: 50%;
-    border-bottom: dashed white;
+}
+
+#when h3  {
+    border-top: 2px dashed white; 
+    padding: 2%;
+    
+}
+
+#who h1 {
+    text-align: center;
 }
 
 #who {
