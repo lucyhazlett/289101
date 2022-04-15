@@ -1,0 +1,47 @@
+#page1 {
+    background-color: #223745;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    margin: 0 0 0 0;
+    height: 180px;
+    font-family: 'Allura', cursive;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 40px;
+}
+
+#page2 {
+    background-color: #c0dddf;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    margin: 0 0 0 0;
+    height: 100px;
+    font-family: 'Old Standard TT', serif;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+#page3 {
+    background-color: white;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    grid-column: 5/5;
+    margin: 0px;
+    height: 420px;
+    padding: 40px;
+}
+
+.me {
+     background-image: url(img/Me.jpg);
+     height: 420px;
+     width: 600px;
+     margin-left: 750px;
+}
+
+.writing {
+    font-family: 'Old Standard TT', serif;
+    color: black;
+    font-size: 20px;
+    margin-right: 650px;
+}
+
